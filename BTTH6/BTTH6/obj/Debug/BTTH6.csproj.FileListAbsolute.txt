@@ -1,0 +1,8 @@
+C:\Users\wise\source\repos\BTTH6\BTTH6\bin\Debug\BTTH6.exe.config
+C:\Users\wise\source\repos\BTTH6\BTTH6\bin\Debug\BTTH6.exe
+C:\Users\wise\source\repos\BTTH6\BTTH6\bin\Debug\BTTH6.pdb
+C:\Users\wise\source\repos\BTTH6\BTTH6\obj\Debug\BTTH6.csproj.AssemblyReference.cache
+C:\Users\wise\source\repos\BTTH6\BTTH6\obj\Debug\BTTH6.csproj.CoreCompileInputs.cache
+C:\Users\wise\source\repos\BTTH6\BTTH6\obj\Debug\BTTH6.exe
+C:\Users\wise\source\repos\BTTH6\BTTH6\obj\Debug\BTTH6.pdb
+C:\Users\wise\source\repos\BTTH6\BTTH6\obj\Debug\BTTH6.exe.config

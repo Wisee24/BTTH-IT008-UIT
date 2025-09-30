@@ -1,0 +1,8 @@
+C:\Users\wise\source\repos\BTTH4\BTTH4\bin\Debug\BTTH4.exe.config
+C:\Users\wise\source\repos\BTTH4\BTTH4\bin\Debug\BTTH4.exe
+C:\Users\wise\source\repos\BTTH4\BTTH4\bin\Debug\BTTH4.pdb
+C:\Users\wise\source\repos\BTTH4\BTTH4\obj\Debug\BTTH4.csproj.AssemblyReference.cache
+C:\Users\wise\source\repos\BTTH4\BTTH4\obj\Debug\BTTH4.csproj.CoreCompileInputs.cache
+C:\Users\wise\source\repos\BTTH4\BTTH4\obj\Debug\BTTH4.exe
+C:\Users\wise\source\repos\BTTH4\BTTH4\obj\Debug\BTTH4.pdb
+C:\Users\wise\source\repos\BTTH4\BTTH4\obj\Debug\BTTH4.exe.config
