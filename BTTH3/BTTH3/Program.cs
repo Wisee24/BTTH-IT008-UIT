@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
@@ -12,10 +12,41 @@ namespace BTTH3
         static void Main(string[] args)
         {
             int day, month, year;
-            Console.Write("Enter day/month/year: ");
-            day = Convert.ToInt32(Console.ReadLine());
-            month = Convert.ToInt32(Console.ReadLine());
-            year = Convert.ToInt32(Console.ReadLine());
+            while(true)
+            {
+                Console.Write("Enter day: ");
+                string input = Console.ReadLine();
+                if (int.TryParse(input, out day))
+                {
+                    break;
+                }
+                else
+                    Console.WriteLine("Please enter a valid integer.");
+            }
+            while (true)
+            {
+                Console.Write("Enter month: ");
+                string input = Console.ReadLine();
+                if (int.TryParse(input, out month))
+                {
+                    break;
+                }
+                else
+                    Console.WriteLine("Please enter a valid integer.");
+            }
+
+            while (true)
+            {
+                Console.Write("Enter year: ");
+                string input = Console.ReadLine();
+                if (int.TryParse(input, out year))
+                {
+                    break;
+                }
+                else
+                    Console.WriteLine("Please enter a valid integer.");
+            }
+
             if(IsValidDate(day, month, year))
             {
                 Console.WriteLine($"{day}/{month}/{year} is a valid date");
@@ -25,7 +56,7 @@ namespace BTTH3
         }
         static bool IsValidDate(int day, int month, int year)
         {
-            if ((day < 1 || day > 31) || (month < 1 || month > 12)) 
+            if ((day < 1 || day > 31) || (month < 1 || month > 12) || (year <= 0))
                 return false;
             if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
                 return true;
